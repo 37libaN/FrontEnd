@@ -11,3 +11,7 @@
 function mySizeChange() {
     document.getElementById("myPicture").width = "300%";
 }
+
+$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+});
