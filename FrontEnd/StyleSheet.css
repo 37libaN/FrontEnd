@@ -13,6 +13,11 @@
     font-size: x-large;
 }
 
+.logoPicture {
+    align-content: center;
+    width: 70%;
+    height: 70%;
+}
 .bodyText {
     font-family: Georgia;
     color: black;

@@ -11,21 +11,72 @@
     <script type="text/javascript" src="ScriptSheet.js"></script>
 </head>
 <body onload="showHide()">
-    <img src="images/CodeTheWay Logo.png" witdth="20%" height="20%" />
-    <p class="majorHeading">Code the Way</p>
-    <p class="minorHeading">Links</p>
-    <a class="navigationLink" href="LifeNavigators.html">Life Navigators</a>
-    <a class="navigationLink" href="HeroesForHealthcare.html">Heroes for Healthcare</a>
-    <a class="navigationLink" href="Media.html">Media</a><p class="minorHeading">Mission</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img class="logoPicture" src="images/CodeTheWay Logo.png" />
+            </div>
+            <div class="col-md-8">
+                <p class="majorHeading">Code the Way</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <a class="navigationLink" href="Codetheway.html">Code the Way</a>
+            </div>
+            <div class="col-md-3">
+                <a class="navigationLink" href="LifeNavigators.html">Life Navigators</a>
+            </div>
+            <div class="col-md-3">
+                <a class="navigationLink" href="HeroesForHealthcare.html">Heroes for Healthcare</a>
+            </div>
+            <div class="col-md-3">
+                <a class="navigationLink" href="Media.html">Media</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="minorHeading">Mission</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="bodyText">
+                            Code the Way facilitates the collaboration of schools, companies, and nonprofits to: (1) Offer students advanced computer science training and real-world job experiences working on projects that benefit nonprofits; (2) Increase certified computer science teachers; and (3) Contribute to the technology talent base.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button onclick="showHide()" class="buttonFormatting">Show Vision</button>
+                    </div>
+                </div>
+                <div class="row" id="vision">
+                    <div class="col-md-3">
+                        <p class="minorHeading">Vision</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="bodyText">
+                            High school students in Greater Milwaukee have access to high quality computer science education and real-world job experiences, positioning them for success in technology-related fields
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/Team Learning.jpg" align="right" width="100%" height="100%" />
+            </div>
+        </div>
+    </div>
 
-    <p class="bodyText">
-        Code the Way facilitates the collaboration of schools, companies, and nonprofits to: (1) Offer students advanced computer science training and real-world job experiences working on projects that benefit nonprofits; (2) Increase certified computer science teachers; and (3) Contribute to the technology talent base.
-    </p>
+
+
     <p class="bodyText">Code the Way model includes:</p>
     <ul>
-        <li class="bodyText" data-toggle="tooltip" data-placement="bottom" title="In addition to 
-            an advanced course that may earn post-secondary credits, students get experience 
-            working collaboratively on a project that benefits a nonprofit, culminating in a 
+        <li class="bodyText" data-toggle="tooltip" data-placement="bottom" title="In addition to
+            an advanced course that may earn post-secondary credits, students get experience
+            working collaboratively on a project that benefits a nonprofit, culminating in a
             presentation to business leaders.">
             Student access to real-world job experience
         </li>
@@ -36,19 +87,14 @@
             Companies are part of the solution
         </li>
         <li class="bodyText" data-toggle="tooltip" data-placement="bottom"
-            title="Support and training for computer science teacher certification increases the 
+            title="Support and training for computer science teacher certification increases the
             availability and quality of high school computer science programs.">
-                Increasing certified computer science teachers
+            Increasing certified computer science teachers
         </li>
     </ul>
-    <img src="images/Team Learning.jpg" align="right" width="25%" height="25%" />
-    <button onclick="showHide()" class="buttonFormatting">Show Vision</button>
-    <div id="vision">
-        <p class="minorHeading">Vision</p>
-        <p class="bodyText">
-            High school students in Greater Milwaukee have access to high quality computer science education and real-world job experiences, positioning them for success in technology-related fields
-        </p>
-    </div>
+
+
+
 
 
 </body>
