@@ -83,3 +83,10 @@
         background-color: white;
         color: #557A95;
     }
+
+.myPicture {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}

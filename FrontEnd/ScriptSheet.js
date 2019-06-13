@@ -7,3 +7,7 @@
         x.style.display = "block";
     }
 }
+
+function mySizeChange() {
+    document.getElementById("myPicture").width = "300%";
+}
