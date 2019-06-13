@@ -6,46 +6,90 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="StyleSheet.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="ScriptSheet.js"></script>
 </head>
 <body onload="showHide()">
-    <img src="images/Heroes Logo.png" />
-    <p class="majorHeading">Heroes for Healthcare</p>
-    <img src="images/Heroes2.png" width="40%" height="40%" />
-    <p class="minorHeading">Mission</p>
-    <p>Our non-profit organization is a resource for our military personnel to start a career in healthcare.</p>
-    <img src="images/Heroes3.png" align="right" width="30%" height="30%" />
-    <p class="minorHeading">Uemployed Veterans</p>
-    <p class="bodyText">
-        Many U.S. Veterans find it hard to secure a job in healthcare when they’re ready to work in the civilian world. Even after showing dedication, strong work ethic, and leadership while serving our country, many military members can’t find jobs.
-    </p>
-    <ul>
-        <li class="bodyText">
-            <div class="tooltip">
-                High numbers of unemployed veterans
-                <div class="tooltiptext">
-                    453,000 unemployed veterans in 2016
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img class="logoPicture" src="images/Heroes Logo.png" />
             </div>
-            
-        </li>
-        <li class="bodyText">
-            <div class="tooltip">
-                Post-Sept. 11 veterans
-                <div class="tooltiptext">
-                    Tend to be unemployed at higher rates than other veterans
-                </div>
+            <div class="col-md-8">
+                <p class="majorHeading">Heroes for Healthcare</p>
             </div>
-        </li>
-    </ul>
-    <button onclick="showHide()" class="buttonFormatting">Show President's Message</button>
-    <div id="vision">
-        <p class="minorHeading">Message from the President</p>
-        <p class="bodyText">
-            I started Heroes for Healthcare to help our U.S. military personnel receive the resources and credentials they need to continue their career in healthcare as a civilian. We need supporters like you to help our mission so our service members can get a job and better their lives. After all they did for us, supporting this organization seems like the right thing to do. Make a difference today by supporting Heroes for Healthcare.
-        </p>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <a class="navigationLink" href="Codetheway.html">Code the Way</a>
+            </div>
+            <div class="col-md-3">
+                <a class="navigationLink" href="LifeNavigators.html">Life Navigators</a>
+            </div>
+            <div class="col-md-3">
+                <a class="navigationLink" href="HeroesForHealthcare.html">Heroes for Healthcare</a>
+            </div>
+            <div class="col-md-3">
+                <a class="navigationLink" href="Media.html">Media</a>
+            </div>
+        </div>
     </div>
-    <a class="navigationLink" href="Codetheway.html">Home</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="minorHeading">Mission</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p>Our non-profit organization is a resource for our military personnel to start a career in healthcare.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="minorHeading">Uemployed Veterans</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="bodyText">
+                            Many U.S. Veterans find it hard to secure a job in healthcare when they’re ready to work in the civilian world. Even after showing dedication, strong work ethic, and leadership while serving our country, many military members can’t find jobs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img src="images/Heroes2.png" width="40%" height="40%" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button onclick="showHide()" class="buttonFormatting">Show President's Message</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row" id="vision">
+                    <div class="col-md-3">
+                        <p class="minorHeading">Message from the President</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="bodyText">
+                            I started Heroes for Healthcare to help our U.S. military personnel receive the resources and credentials they need to continue their career in healthcare as a civilian. We need supporters like you to help our mission so our service members can get a job and better their lives. After all they did for us, supporting this organization seems like the right thing to do. Make a difference today by supporting Heroes for Healthcare.
+                        </p>
+                        <ul>
+                            <li class="bodyText" data-toggle="tooltip" data-placement="bottom" title="453,000 unemployed veterans in 2016">
+                                High numbers of unemployed veterans
+                            </li>
+                            <li class="bodyText" data-toggle="tooltip" data-placement="bottom" title="Tend to be unemployed at higher rates than other veterans">
+                                Post-Sept. 11 veterans
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img src="images/Heroes3.png" align="right" width="30%" height="30%" />
+            </div>
+        </div>
+    </div>
 </body>
 </html>
